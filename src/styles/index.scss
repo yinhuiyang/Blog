@@ -1,0 +1,12 @@
+@import './common.scss';
+.container{
+    height: 100%;
+    ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        background-color: rgba(0,120,231,.5);
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 2px;
+        background-color: rgba(255,255,255,.1);
+    }
+}
