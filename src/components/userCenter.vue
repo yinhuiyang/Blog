@@ -1,6 +1,13 @@
 <template>
   <div class="aside">
-    <p>侧边栏</p>
+    <div class="avatar">
+      <img src="../assets/images/blur-source-image.jpg" alt="">
+    </div>
+    <div class="typeList">
+      <ul>
+        <li />
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -8,4 +15,14 @@
 export default {}
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.aside {
+  .avatar {
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+}
+</style>
